@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+.wrapper {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+.content-body {
+    margin-top: -62px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 99;
+	padding-bottom:35px;
+}
+.content-body .white-bg{
+    margin: 0;
+    padding: 10px 30px;
+    background: #ffffff;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.1);
+}
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.content-body .white-bg{
+    margin: 0;
+    padding: 10px 30px;
+    background: #ffffff;
+    float: left;
+    width: 100%;
+    box-shadow: 0 0 14px 0 rgba(0,0,0,0.1);
+}
+.tab-content {
+    overflow: auto;
+    height: 425px;
+    margin: 0 -30px;
+    padding: 0 30px;
+}

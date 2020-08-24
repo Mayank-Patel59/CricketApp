@@ -1,0 +1,39 @@
+<!--<div class="wrapper content-body">
+  <div class="container-fluid">
+    <div class="white-bg">
+      <hr /> -->
+      <tabset #tabs>
+        <div class="tab-content" id="myTabContent">
+          <tab heading="Countries">
+            <p-table #dt [columns]="CountryHeaderList" [value]="countries"
+      scrollHeight="200px" class="table" sortMode="multiple" [paginator]="true" [rows]="5">
+        <ng-template pTemplate="header" let-columns>
+            <tr>
+                <th *ngFor="let col of columns" [pSortableColumn]="col.BindingValue">
+                    {{col.DisplayName}}
+                    <p-sortIcon [field]="col.BindingValue"></p-sortIcon>
+                </th>
+                
+                <th class="action-width"></th>
+            </tr>
+            <tr>
+                <th *ngFor="let col of columns" [ngSwitch]="col.BindingValue">
+                    <input pInputText type="text" 
+                    (input)="dt.filter($event.target.value, col.BindingValue, 'contains')">
+                </th>
+                <th class="action-width"></th>
+            </tr>
+        </ng-template>
+      </p-table>
+          </tab>
+          <tab heading="Teams">
+
+          </tab>
+          <tab heading="Player Info">
+
+          </tab>            
+        </div>
+      </tabset>
+  <!-- </div>
+  </div>
+</div>    -->    

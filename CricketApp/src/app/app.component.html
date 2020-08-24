@@ -1,0 +1,43 @@
+<!--<div class="wrapper content-body">
+  <div class="container-fluid">
+    <div class="white-bg">
+      <hr /> -->
+
+      <tabset #tabs>
+        <div class="tab-content" id="myTabContent">
+          <tab heading="Countries">
+            <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+              <!--- Note that these columns can be defined in any order.
+                    The actual rendered columns are set as a property on the row definition" -->
+            
+              <!-- Position Column -->
+              <ng-container matColumnDef="team_Name">
+                <th mat-header-cell *matHeaderCellDef> Country </th>
+                <td mat-cell *matCellDef="let element"> {{element.team_Name}} </td>
+              </ng-container>
+            
+              <!-- Name Column -->
+              <ng-container matColumnDef="matches">
+                <th mat-header-cell *matHeaderCellDef> Matches Played </th>
+                <td mat-cell *matCellDef="let element"> {{element.matches}} </td>
+              </ng-container>
+            
+              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+            
+            
+        
+          </tab>
+          <tab heading="Teams">
+
+          </tab>
+          <tab heading="Player Info">
+
+          </tab>            
+        </div>
+      </tabset>
+  <!-- </div>
+  </div>
+</div>    -->    
