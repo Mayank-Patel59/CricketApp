@@ -4,9 +4,9 @@ Hope you are Doing Great, this is Basic Software Requirements for Cricket Applic
 
 1)	Visual Studio Code {1.48}
 2)	POSTMAN {7.30}
-3)	Microsoft Visual Studio 2008
+3)	Microsoft SQL DEVELOPER R2 2008
 4)	Angular (npm) {6.14}
-5)	5)Node Js {12.18}
+5)	Node Js {12.18}
 
 ** INSTALLATION GUIDE **
 
