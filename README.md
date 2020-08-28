@@ -10,7 +10,7 @@ Hope you are Doing Great, this is Basic Software Requirements for Cricket Applic
 
 ** INSTALLATION GUIDE **
 
-1)	Create a Folder Name "CricketApp.API" (Give Any Name of Folder but .API is much)
+1)	Create a Folder Name "CricketApp.API" (Give Any Name of Folder but .API is must)
 2)	Download all repository file and paste into the folder which is created in STEP 1.
 3)	After done FIRST BOTH STEPS open TERMINAL (SHORTCUT FOR WINDOWS IS: cntr + `).
 4)	After opening the TERMINAL type "dotnet watch run"
